@@ -1,0 +1,24 @@
+2. Distributed Task Queue
+Build a distributed worker system capable of processing asynchronous jobs concurrently across
+multiple workers. Focus on concurrency, distributed coordination, reliability, and fault tolerance.
+Core Features
+- Task queue management
+- Worker pools
+- Concurrent job execution
+- Retry mechanisms
+- Priority queues
+- Delayed jobs
+- Metrics and monitoring
+- CLI management tools
+Experimental / Killer Features
+- Dead letter queues
+- Worker heartbeat system
+- Exponential retry backoff
+- Graceful shutdown
+- Rate limiting
+- Distributed workers
+- Job scheduling
+- Persistent task storage
+- Horizontal scaling
+Recommended Stack
+Go, Redis or NATS, gRPC, Zap logging, Prometheus, Docker, Cobra CLI
