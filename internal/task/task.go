@@ -3,7 +3,7 @@ package task
 import(
 	"time"
 
-	"github/google/uuid"
+	"github.com/google/uuid"
 )
 
 // represent where a rask is in  it's lifecycle
