@@ -53,7 +53,7 @@ var transitions = map[Status][]Status{
 	StatusCompleted: {},
 	StatusDLQ: {},
 }
-// canTransition checks weatger moving to "to" is a valid state change
+// canTransition checks weather moving to "to" is a valid state change
 func (t *Task) CanTransition(to Status) bool {
 	allowed, ok := transitions[t.Status]
 	if !ok {
@@ -62,7 +62,7 @@ func (t *Task) CanTransition(to Status) bool {
 
 	for _, s := range allowed {
 		if s == to {
-			return true
+			return true 
 		}
 	}
 
